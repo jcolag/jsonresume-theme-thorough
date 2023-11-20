@@ -1,0 +1,87 @@
+:root {
+  --bg: white;
+  --fg: #181010;
+  --em: #909090;
+  --he: #351010;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #181010;
+    --fg: #eeeeee;
+    --em: #666666;
+    --he: #caefef;
+  }
+}
+body {
+	background: var(--bg);
+	color: var(--fg);
+	font: 10px "Open Sans", "Noto Emoji", Arial, Helvetica, sans-serif;
+	line-height: 1.4;
+	margin: 50px 0;
+	margin-bottom: 100px;
+}
+em {
+	color: var(--em);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Vollkorn', 'Times New Roman', serif;
+}
+p {
+	line-height: 1.25;
+}
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+.fa,
+.fa-regular,
+.fa-solid,
+.fab {
+  margin-right: 1em;
+}
+.item {
+  break-inside: avoid;
+	margin-bottom: 1em;
+	page-break-inside: avoid;
+}
+#resume {
+	margin: 0 auto;
+	max-width: 480px;
+	padding: 0 20px;
+}
+#basics {
+	margin-bottom: -10px;
+}
+#basics h3 {
+	margin-top: 1.5em;
+}
+#basics .contact strong,
+#location strong {
+	clear: both;
+	float: left;
+	line-height: 1.3;
+	width: 120px;
+}
+#profiles,
+#skills {
+	overflow: hidden;
+}
+#profiles .item,
+#skills .item {
+	float: left;
+	margin-bottom: 0;
+	margin-top: 0;
+	width: 50%;
+}
+
