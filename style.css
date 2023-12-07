@@ -12,6 +12,9 @@
     --he: #caefef;
   }
 }
+@page {
+  size: letter;
+}
 body {
 	background: var(--bg);
 	color: var(--fg);
