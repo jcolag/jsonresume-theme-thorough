@@ -20,7 +20,7 @@ body {
 	color: var(--fg);
 	font: 10px "Open Sans", "Noto Emoji", Arial, Helvetica, sans-serif;
 	line-height: 1.4;
-	margin: 50px 0;
+	margin-top: 50px;
 	margin-bottom: 100px;
 }
 em {
