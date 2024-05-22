@@ -114,7 +114,7 @@
 
 	{{#if resume.work.length}}
 	<section id="work">
-		<h2>Work</h2>
+		<h2>Work Experience</h2>
 		{{#each resume.work}}
 		<div class="item">
 			{{#if company}}
@@ -147,7 +147,7 @@
 			</div>
 			{{#if position}}
 			<div class="position">
-				{{position}}
+				<em>{{position}}</em>
 			</div>
 			{{/if}}
 			{{#if summary}}
@@ -249,9 +249,11 @@
 			</div>
 			{{#if roles.length}}
 			  <div class="roles">
+			    <em>
 			    {{#each roles}}
 			      {{.}}{{#unless @last}}, {{/unless}}
 			    {{/each}}
+			    </em>
 			  </div>
 			{{/if}}
 				{{#if url}}
