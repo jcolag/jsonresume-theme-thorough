@@ -10,6 +10,20 @@ function render(resume) {
 	});
 }
 
+function sortWork(a, b) {
+  const parseDate = date => date ? new Date(date) : new Date('9999-12-31');
+  const endDateA = parseDate(a.endDate);
+  const endDateB = parseDate(b.endDate);
+  const startDateA = new Date(a.startDate);
+  const startDateB = new Date(b.startDate);
+
+  if (endDateB - endDateA !== 0) {
+    return endDateB - endDateA;
+  }
+
+  return startDateB - startDateA;
+}
+
 module.exports = {
 	render: render
 };
