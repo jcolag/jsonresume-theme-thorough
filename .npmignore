@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 John Colagioia <john@colagioia.net>
+#
+# SPDX-License-Identifier: MIT
+
 node_modules/
 npm-debug.log
 resume.html

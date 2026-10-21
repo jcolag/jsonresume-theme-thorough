@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2023 John Colagioia <john@colagioia.net>
+
+SPDX-License-Identifier: MIT
+-->
+
 # jsonresume-theme-thorough
 Placeholder experiment with Handlebars.js
 

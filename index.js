@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2023 John Colagioia <john@colagioia.net>
+//
+// SPDX-License-Identifier: MIT
+
 var fs = require("fs");
 var Handlebars = require("handlebars");
 
